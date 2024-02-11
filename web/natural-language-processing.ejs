@@ -1,0 +1,206 @@
+<%- include('common/header', { pageTitle: pageTitle, activeUrl: activeUrl }) %>
+
+	<!-- 
+			=============================================
+				Theme Hero Banner
+			============================================== 
+			-->
+	<div class="hero-banner-four" style="padding: 150px 0 45px">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-8 col-xl-7 col-lg-8 col-md-11 m-auto">
+					<!-- <a href="pricing.html" class="slogan"><strong>Offer</strong> is going on till friday, $1.99/mo. <i class="fas fa-chevron-right"></i></a> -->
+					<h1 class="hero-heading">Natural Language Processing (NLP)</h1>
+					<p class="mb-50 lg-mb-30">NLP, or Natural Language Processing, is a branch of artificial
+						intelligence that focuses on enabling computers to understand, interpret, and generate human
+						language in a way that is both meaningful and contextually relevant. NLP algorithms and
+						techniques enable machines to process and analyze large volumes of natural language data, such
+						as text and speech, with the goal of extracting valuable insights, understanding human
+						communication, and interacting with users in a more natural and intuitive manner.
+					</p>
+
+					<!-- <div class="info">No Credit Card Required.</div> -->
+				</div>
+			</div>
+		</div> <!-- /.container -->
+		<div class="illustration-holder-one">
+			<img src="images/assets/ils_10.svg" alt="">
+			<img src="images/assets/ils_10_1.svg" alt="" class="shapes shape-one">
+			<img src="images/assets/ils_10_2.svg" alt="" class="shapes shape-two">
+		</div> <!-- /.illustration-holder-one -->
+		<div class="illustration-holder-two">
+			<img src="images/assets/ils_11.svg" alt="">
+			<img src="images/assets/ils_10_1.svg" alt="" class="shapes shape-one">
+		</div> <!-- /.illustration-holder-two -->
+	</div> <!-- /.hero-banner-four -->
+
+
+
+
+	<!--
+			=====================================================
+				FAQ Section One
+			=====================================================
+			-->
+	<div class="faq-section-one mt-130 mb-150 lg-mt-80 lg-mb-80">
+		<div class="container">
+			<div class="row">
+				<div class="col-xxl-10 col-xl-11 m-auto">
+					<div class="row">
+						<!-- <div class="col-xl-4 col-lg-3">
+							<ul class="faq-list-item style-none md-mb-60">
+								<li class="active"><a href="#">1. <span>Makreting</span></a></li>
+								<li><a href="#">2. <span>Buying</span></a></li>
+								<li><a href="#">3. <span>User Manual</span></a></li>
+								<li><a href="#">4. <span>Payments</span></a></li>
+								<li><a href="#">5. <span>Terms & Conditions</span></a></li>
+								<li><a href="#">6. <span>Account</span></a></li>
+							</ul>
+						</div> -->
+
+						<div class="col-xl-12 col-lg-12" data-aos="fade-left">
+							<h3 class="faq-title">Use Cases of NLP</h3>
+							<div class="accordion accordion-style-one" id="accordionOne">
+								<div class="accordion-item">
+									<div class="accordion-header" id="headingOne">
+										<button class="accordion-button" type="button" data-bs-toggle="collapse"
+											data-bs-target="#collapseOne" aria-expanded="false"
+											aria-controls="collapseOne">
+											Sentiment Analysis
+										</button>
+									</div>
+									<div id="collapseOne" class="accordion-collapse collapse"
+										aria-labelledby="headingOne" data-bs-parent="#accordionOne">
+										<div class="accordion-body">
+											<p>NLP can be used to analyze text data from sources such as social media,
+												customer reviews, and surveys to determine the sentiment or opinion
+												expressed towards a particular topic, product, or service. This
+												information is valuable for businesses to understand customer feedback,
+												assess brand reputation, and make informed decisions.</p>
+										</div>
+									</div>
+								</div>
+								<div class="accordion-item">
+									<div class="accordion-header" id="headingTwo">
+										<button class="accordion-button collapsed" type="button"
+											data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+											aria-expanded="false" aria-controls="collapseTwo">
+											Text Classification
+										</button>
+									</div>
+									<div id="collapseTwo" class="accordion-collapse collapse"
+										aria-labelledby="headingTwo" data-bs-parent="#accordionOne">
+										<div class="accordion-body">
+											<p>NLP algorithms can classify text documents into predefined categories or
+												topics based on their content. This is useful for tasks such as document
+												categorization, spam detection, news categorization, and content tagging
+												in content management systems.
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="accordion-item">
+									<div class="accordion-header" id="headingThree">
+										<button class="accordion-button collapsed" type="button"
+											data-bs-toggle="collapse" data-bs-target="#collapseThree"
+											aria-expanded="false" aria-controls="collapseThree">
+											Named Entity Recognition (NER)
+										</button>
+									</div>
+									<div id="collapseThree" class="accordion-collapse collapse"
+										aria-labelledby="headingThree" data-bs-parent="#accordionOne">
+										<div class="accordion-body">
+											<p>NLP techniques can identify and extract named entities, such as people,
+												organizations, locations, dates, and numerical expressions, from
+												unstructured text data. NER is commonly used in applications like
+												information extraction, entity linking, and document summarization.
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="accordion-item">
+									<div class="accordion-header" id="headingFour">
+										<button class="accordion-button" type="button" data-bs-toggle="collapse"
+											data-bs-target="#collapseFour" aria-expanded="true"
+											aria-controls="collapseFour">
+											Machine Translation
+										</button>
+									</div>
+									<div id="collapseFour" class="accordion-collapse collapse show"
+										aria-labelledby="headingFour" data-bs-parent="#accordionOne">
+										<div class="accordion-body">
+											<p>NLP plays a crucial role in machine translation systems that
+												automatically translate text from one language to another. These systems
+												use advanced statistical and neural machine translation models to
+												accurately translate text while preserving its meaning and context.</p>
+										</div>
+									</div>
+								</div>
+								<div class="accordion-item">
+									<div class="accordion-header" id="headingFive">
+										<button class="accordion-button collapsed" type="button"
+											data-bs-toggle="collapse" data-bs-target="#collapseFive"
+											aria-expanded="false" aria-controls="collapseFive">
+											Question Answering Systems
+										</button>
+									</div>
+									<div id="collapseFive" class="accordion-collapse collapse"
+										aria-labelledby="headingFive" data-bs-parent="#accordionOne">
+										<div class="accordion-body">
+											<p>NLP algorithms can power question answering systems that understand and
+												respond to user queries in natural language. These systems can retrieve
+												relevant information from large knowledge bases or textual corpora to
+												provide accurate and contextually relevant answers to user questions.
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="accordion-item">
+									<div class="accordion-header" id="headingSix">
+										<button class="accordion-button collapsed" type="button"
+											data-bs-toggle="collapse" data-bs-target="#collapseSix"
+											aria-expanded="false" aria-controls="collapseSix">
+											Chatbots and Virtual Assistants
+										</button>
+									</div>
+									<div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="heading"
+										data-bs-parent="#accordionOne">
+										<div class="accordion-body">
+											<p>NLP is the backbone of chatbots and virtual assistants that interact with
+												users through natural language conversations. These systems use
+												techniques like natural language understanding (NLU) and natural
+												language generation (NLG) to understand user queries, perform tasks, and
+												generate human-like responses.</p>
+										</div>
+									</div>
+								</div>
+
+								<div class="accordion-item">
+									<div class="accordion-header" id="headingSeven">
+										<button class="accordion-button collapsed" type="button"
+											data-bs-toggle="collapse" data-bs-target="#collapseSeven"
+											aria-expanded="false" aria-controls="collapseSeven">
+											Text Summarization
+										</button>
+									</div>
+									<div id="collapseSeven" class="accordion-collapse collapse"
+										aria-labelledby="headingSeven" data-bs-parent="#accordionOne">
+										<div class="accordion-body">
+											<p>NLP algorithms can automatically generate concise summaries of longer
+												text documents or articles, capturing the key points and main ideas
+												while omitting redundant or irrelevant information. Text summarization
+												is useful for tasks such as document summarization, news summarization,
+												and content curation.
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> <!-- /.container -->
+	</div> <!-- /.faq-section-one -->
+
+	<%- include('common/footer', { pageTitle: pageTitle }) %>

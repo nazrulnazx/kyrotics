@@ -39,23 +39,32 @@
             <div id="preloader">
                 <div id="ctn-preloader" class="ctn-preloader">
                     <div class="animation-preloader">
-                        <div class="icon"><img src="images/logo/logo_01.svg" alt="" class="m-auto d-block" width="38">
+                        <div class="icon"><img src="images/logo/logo_03.png" alt="" class="m-auto d-block" width="200">
                         </div>
                         <div class="txt-loading mt-2">
-                            <span data-text-preloader="S" class="letters-loading">
-                                S
+                            <span data-text-preloader="K" class="letters-loading">
+                                K
+                            </span>
+                            <span data-text-preloader="Y" class="letters-loading">
+                                Y
+                            </span>
+                            <span data-text-preloader="R" class="letters-loading">
+                                R
+                            </span>
+                            <span data-text-preloader="O" class="letters-loading">
+                                O
+                            </span>
+                            <span data-text-preloader="T" class="letters-loading">
+                                T
                             </span>
                             <span data-text-preloader="I" class="letters-loading">
                                 I
                             </span>
-                            <span data-text-preloader="N" class="letters-loading">
-                                N
-                            </span>
                             <span data-text-preloader="C" class="letters-loading">
                                 C
                             </span>
-                            <span data-text-preloader="O" class="letters-loading">
-                                O
+                            <span data-text-preloader="S" class="letters-loading">
+                                S
                             </span>
                         </div>
                     </div>
@@ -107,28 +116,28 @@
                                     <a class="nav-link" href="/" role="button">Home</a>
                                 </li>
 
-                                <li class="nav-item dropdown">
+                                <li class="nav-item <%if (activeUrl=='/computer-vision' || activeUrl=='/data-analytics' || activeUrl=='/ai-enabled-app-development' || activeUrl=='/natural-language-processing') {%> active  <%}%> dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                         data-bs-auto-close="outside" aria-expanded="false">Solutions</a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="service-V1.html" class="dropdown-item"><span>Computer
+                                        <li><a href="/computer-vision" class="dropdown-item"><span>Computer
                                                     Vison</span></a></li>
-                                        <li><a href="service-V2.html" class="dropdown-item"><span>Data
+                                        <li><a href="/data-analytics" class="dropdown-item"><span>Data
                                                     Analytics</span></a></li>
-                                        <li><a href="service-details-V1.html" class="dropdown-item"><span>AI-Enabled App
+                                        <li><a href="/ai-enabled-app-development" class="dropdown-item"><span>AI-Enabled App
                                                     development</span></a></li>
-                                        <li><a href="service-details-V1.html" class="dropdown-item"><span>Natural
+                                        <li><a href="/natural-language-processing" class="dropdown-item"><span>Natural
                                                     Language Processing</span></a></li>
                                     </ul>
                                 </li>
 
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#" role="button">Sectors</a>
+                                <li class="nav-item <%if (activeUrl=='/sectors') {%> active  <%}%>">
+                                    <a class="nav-link" href="sectors" role="button">Sectors</a>
                                 </li>
 
-                                <li class="nav-item">
+                                <!-- <li class="nav-item">
                                     <a class="nav-link" href="#" role="button">Highlights</a>
-                                </li>
+                                </li> -->
 
                                 <li class="nav-item <%if (activeUrl=='/about-us') {%> active  <%}%>">
                                     <a class="nav-link"  href="about-us" role="button">About Us</a>
