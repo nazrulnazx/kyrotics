@@ -314,8 +314,9 @@ body {
   margin: 0;
 }
 .title-style-three .main-title span {
-  color: var(--prime-three);
-  text-decoration: underline;
+  /* color: var(--prime-three); */
+  color: #ff5756; 
+  /* text-decoration: underline; */
   text-decoration-thickness: 4px;
 }
 .title-style-three .sc-title {
@@ -2880,6 +2881,39 @@ body .btn-eight:hover {
   padding: 225px 0 45px;
   text-align: center;
 }
+
+.natural-language-processing {
+  background-image: url("../images/banner/natural-language-processing.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.computer-vision {
+  background-image: url("../images/banner/computer-vision.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.data-analytics {
+  background-image: url("../images/banner/data-analytics.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ai-enabled-app {
+  background-image: url("../images/banner/ai-enabled-app.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .hero-banner-four .slogan {
   display: inline-block;
   line-height: initial;
@@ -2895,7 +2929,7 @@ body .btn-eight:hover {
   font-size: 12px;
   width: 30px;
   line-height: 24px;
-  background: #738BAE;
+  background: #034bb7;
   text-align: center;
   color: #fff;
   border-radius: 20px;
@@ -3198,8 +3232,9 @@ body .btn-eight:hover {
   line-height: 1.17em;
 }
 .hero-banner-five .hero-heading span {
-  color: var(--prime-three); 
-  text-decoration: underline;
+  color: #ff5756; 
+  /* var(--prime-three);  */
+  /* text-decoration: underline; */
   text-decoration-thickness: 5px;
 }
 .hero-banner-five .demo-btn {
